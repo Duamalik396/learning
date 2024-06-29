@@ -1,0 +1,53 @@
+p{
+    color: yellowgreen;
+}
+p::first-letter{
+    color: red;
+}
+h1{
+    text-shadow: 2px 2PX 5PX red;
+}
+p::first-line{
+    color: green;
+}
+/* p::after{ 
+     content: url(tyre.png); 
+}
+p::before{
+    content: url(tyre.png);
+} */ 
+/* p::selection{
+    color: white;
+    background-color: black;
+}*/
+/* linear gradient */
+body{
+    /* background-color: yellow; */
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+    /* background: red; */
+    /* background-image: linear-gradient(to right,red yellowgreen);*/
+    /* background-image: linear-gradient(to bottom,red yellowgreen); */
+   /* background-image: linear-gradient(90deg,red yellowgreen);*/
+}
+.main{
+display: flex;
+justify-content:center ;
+align-items: center;
+width:100vw ;
+height: 100vh;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+}
+.container{
+width: 70vw;
+height: 100wh;
+display: flex;
+padding: 6px;
+justify-content: center;
+align-items: center; 
+border: 2px solid blueviolet;
+box-shadow: 6px 6px 5px 2px red ;
+}

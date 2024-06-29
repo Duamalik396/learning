@@ -1,0 +1,68 @@
+.form{
+    display:flex ;
+    flex-direction:column ;
+    align-items:center ;
+    border: 2px solid transparent;
+    background-color: yellow ;
+    border-radius: 12px;
+    height: 40vh;
+    width:20vw ;
+    padding: 12px;
+   /* margin-top:200px*/
+}
+.main{
+    display:flex ;
+    width: 95vw;
+    height:95vh;
+
+    background-color: whitesmoke;
+    justify-content:center; /*row*/
+    align-items: center; /*column*/
+
+}
+.username{
+    border: none;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    background-color: transparent;
+    border-bottom: 2px solid cadetblue;
+}
+body{
+    margin:0 ;
+    padding:0;
+}
+.button{
+    width: 100px;
+    margin:12px ;
+    border:12px solid transparent ;
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.button :hover{
+cursor: pointer;
+background-color: white;
+color: black;
+/*border-radius: 0px;*/
+}
+.user{
+    margin:12px ;
+    font-size:20px ;
+}
+.pass{
+    font-size:20px ;
+}
+.link{
+font-size: 17px;
+}
+::placeholder{
+    color: white;
+}
+.input{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 4px;
+}

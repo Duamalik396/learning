@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    height: 300vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one{
+    position: fixed;
+    top: 0;
+height: 150px;
+width: 150px;
+background-color: blue;
+border: 2px solid transparent;
+}
+.two{
+   /* position: absolute;*/
+   z-index:1;
+  /* top: 350pv*/;
+height:150px ;
+width:150px ;
+background-color: blueviolet;
+border:2px solid transparent ;
+}
+.three{
+    position: relative;
+height:150px ;
+width: 150px;
+background-color:red ;
+border:2px solid transparent ;
+}
+.four{
+    position: sticky;
+    bottom: 0;
+height:150px ;
+width:150px ;
+background-color: aqua;
+border:2px solid transparent;
+}
